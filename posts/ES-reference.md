@@ -1,9 +1,9 @@
 ---
-path: "/blog/test-post"
 title: 使用 js 实现引用传递
 date: 2017-11-28 16:24:30
-author: Leon
-link: https://github.com/jazzysnail
+author: 
+  - Leon
+  - https://github.com/jazzysnail
 tags: 
   - JS
 ---

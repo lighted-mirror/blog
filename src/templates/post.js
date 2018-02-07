@@ -11,20 +11,18 @@ const styles = {
   }
 }
 
-
-
-
-
 export default function Template({
-  data, // 这个 prop 将被下面的 GraphQL 查询注入。
+  data,
 }) {
-  const { markdownRemark } = data; // data.markdownRemark 将持有我们文章的完整信息
+  const { markdownRemark } = data; // data.markdownRemark 持有推文的完整信息
   const { frontmatter, html } = markdownRemark;
   return (
     <div className="blog-post-container">
       <div className="blog-post">
         <h1 style={styles.title}>{frontmatter.title}</h1>
-        <p style={styles.date}>{frontmatter.date} by <a href={frontmatter.link}>{frontmatter.author}</a></p>
+        <p style={styles.date}>
+          {frontmatter.date} by <a href={frontmatter.author[1]}>{`${frontmatter.author[0]}`}</a>
+        </p>
         <p>
           {frontmatter.tags.map((val, i) => <span key={i}>{val}</span>)}
         </p>
@@ -38,15 +36,13 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query BlogPostByPath {
+    markdownRemark {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
         author
-        link
         tags
       }
     }

@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'lighted-mirror',
+    startyear: '2018',
   },
   plugins: [{
       resolve: 'gatsby-source-filesystem',
