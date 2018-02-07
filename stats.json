@@ -4,25 +4,69 @@
       "path---about-us-a0e39f21c11f6a62c5ab.js",
       "path---about-us-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---test-post": [
-      "path---test-post-f964d2c5b8a557186641.js",
-      "path---test-post-f964d2c5b8a557186641.js.map"
+    "path---course-play-vue-logo": [
+      "path---course-play-vue-logo-4bae982b8731110eb15e.js",
+      "path---course-play-vue-logo-4bae982b8731110eb15e.js.map"
+    ],
+    "path---daily-prototype-002": [
+      "path---daily-prototype-002-4bae982b8731110eb15e.js",
+      "path---daily-prototype-002-4bae982b8731110eb15e.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-6a0a257a0d72332439d7.js",
-      "component---src-pages-index-js-6a0a257a0d72332439d7.js.map"
+      "component---src-pages-index-js-6ac6ca4987a5428a931a.js",
+      "component---src-pages-index-js-6ac6ca4987a5428a931a.js.map"
+    ],
+    "path---jazzysnail-font": [
+      "path---jazzysnail-font-4bae982b8731110eb15e.js",
+      "path---jazzysnail-font-4bae982b8731110eb15e.js.map"
+    ],
+    "path---daily-prototype-004": [
+      "path---daily-prototype-004-4bae982b8731110eb15e.js",
+      "path---daily-prototype-004-4bae982b8731110eb15e.js.map"
+    ],
+    "path---es-new": [
+      "path---es-new-4bae982b8731110eb15e.js",
+      "path---es-new-4bae982b8731110eb15e.js.map"
+    ],
+    "path---fluent-design-system": [
+      "path---fluent-design-system-4bae982b8731110eb15e.js",
+      "path---fluent-design-system-4bae982b8731110eb15e.js.map"
     ],
     "path---": [
-      "path----557518bd178906f8d58a.js",
-      "path----557518bd178906f8d58a.js.map"
+      "path----399b7141816ef9ae6952.js",
+      "path----399b7141816ef9ae6952.js.map"
+    ],
+    "path---daily-prototype-005": [
+      "path---daily-prototype-005-4bae982b8731110eb15e.js",
+      "path---daily-prototype-005-4bae982b8731110eb15e.js.map"
+    ],
+    "path---test": [
+      "path---test-4bae982b8731110eb15e.js",
+      "path---test-4bae982b8731110eb15e.js.map"
+    ],
+    "path---disconf": [
+      "path---disconf-4bae982b8731110eb15e.js",
+      "path---disconf-4bae982b8731110eb15e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-21888faccbdb5ec6736d.js",
-      "component---src-layouts-index-js-21888faccbdb5ec6736d.js.map"
+      "component---src-layouts-index-js-152233edf36abeef3f0f.js",
+      "component---src-layouts-index-js-152233edf36abeef3f0f.js.map"
+    ],
+    "path---npm-rimraf": [
+      "path---npm-rimraf-4bae982b8731110eb15e.js",
+      "path---npm-rimraf-4bae982b8731110eb15e.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-52ff870f0e032ab10f85.js",
+      "path---index-52ff870f0e032ab10f85.js.map"
+    ],
+    "path---daily-prototype-003": [
+      "path---daily-prototype-003-4bae982b8731110eb15e.js",
+      "path---daily-prototype-003-4bae982b8731110eb15e.js.map"
+    ],
+    "path---not-defined-undefined": [
+      "path---not-defined-undefined-4bae982b8731110eb15e.js",
+      "path---not-defined-undefined-4bae982b8731110eb15e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -40,15 +84,29 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---my-understanding-on-closures": [
+      "path---my-understanding-on-closures-4bae982b8731110eb15e.js",
+      "path---my-understanding-on-closures-4bae982b8731110eb15e.js.map"
+    ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-c697d038ea486e583440.js",
-      "component---src-templates-post-js-c697d038ea486e583440.js.map"
+      "component---src-templates-post-js-f21795fdd8ddea9ec658.js",
+      "component---src-templates-post-js-f21795fdd8ddea9ec658.js.map"
+    ],
+    "path---es-reference": [
+      "path---es-reference-4bae982b8731110eb15e.js",
+      "path---es-reference-4bae982b8731110eb15e.js.map"
+    ],
+    "path---pure-function": [
+      "path---pure-function-4bae982b8731110eb15e.js",
+      "path---pure-function-4bae982b8731110eb15e.js.map"
+    ],
+    "path---daily-prototype-001": [
+      "path---daily-prototype-001-4bae982b8731110eb15e.js",
+      "path---daily-prototype-001-4bae982b8731110eb15e.js.map"
     ],
     "app": [
-      "app-be353a2a7e4b3d4a3e61.js",
-      "build-js-styles.css",
-      "app-be353a2a7e4b3d4a3e61.js.map",
-      "build-js-styles.css.map"
+      "app-c6434ca3d0b1ed98141b.js",
+      "app-c6434ca3d0b1ed98141b.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
