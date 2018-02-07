@@ -1,3 +1,4 @@
 node_modules
+public
 v8-compile-cache-*
 .cache
