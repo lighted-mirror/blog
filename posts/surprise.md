@@ -1,5 +1,5 @@
 ---
-path: "/blog/surprise"
+path: "/surprise"
 date: "2018-03-18"
 title: "《意外》"
 author: "ygy4870"

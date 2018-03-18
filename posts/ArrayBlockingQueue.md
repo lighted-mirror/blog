@@ -1,5 +1,5 @@
 ---
-path: "/blog/BlockingQueue-ArrayBlockingQueue"
+path: "/BlockingQueue-ArrayBlockingQueue"
 date: "2018-03-18"
 title: "BlockingQueue-ArrayBlockingQueue 源码解析"
 author: "MelodyFrom"

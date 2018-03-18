@@ -1,5 +1,5 @@
 ---
-path: "/blog/es-reference"
+path: "/es-reference"
 date: "2018-03-18"
 title: "使用 js 实现引用传递"
 author: "leon"
