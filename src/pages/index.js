@@ -1,48 +1,59 @@
 import React from 'react';
-import Link from 'gatsby-link'
+import Link from 'gatsby-link';
+import { List, Button, Icon } from 'antd';
+import './index.less';
+const ButtonGroup = Button.Group;
 
-export default class BlogIndex extends React.Component {
-  render() {
-    if (this.props.errors && this.props.errors.length) {
-      this.props.errors.forEach(({ message }) => {
-        console.error(`BlogIndex render errr: ${message}`);
-      });
-      return <h1>Errors found: Check the console for details</h1>;
-    }
-    let getUrl = parent => {
-      let path = parent.split(' ')[0].split('/');
-      path.shift();
-      path[path.length - 1] = path[path.length - 1].split('.')[0];
-      path = `/${path.join('/')}`;
-      return path
-    }
-    return (
-      <div>
-        <h1>Hi people</h1>
-        <p>Our web site will open.</p>
-        <p>the following is some test page of post.</p>
-        <h2>Peace!!</h2>
-        <ul>
-          {
-            this.props.data.allMarkdownRemark.edges.map(({ node }, i) => (
-              <li key={i}><Link to={getUrl(node.frontmatter.parent)}>{node.frontmatter.title}</Link></li>
-            ))
-          }
-          <li><Link to="/about-us">About Us</Link></li>
-        </ul>
+const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
+  const Posts = edges.filter(edge => !!edge.node.frontmatter.date);
+    // .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+  return (
+    <div>
+      <List
+        itemLayout="horizontal"
+        dataSource={Posts}
+        renderItem={item => {
+          const { path, title, dsct, author } = item.node.frontmatter;
+          return (
+            <List.Item>
+              <List.Item.Meta
+                title={<Link to={path}>{title}</Link>}
+                description={dsct || item.node.excerpt}
+              />
+              <div className="author-info">Posted by {author}</div>
+            </List.Item>
+          )
+        }}
+      />
+      <div className="pagination">
+        <ButtonGroup style={{float: 'right'}}>
+          <Button type="primary">
+            <Icon type="left" />Newer Posts
+          </Button>
+          <Button type="primary">
+            Older Posts<Icon type="right" />
+          </Button>
+        </ButtonGroup>
       </div>
-    );
-  }
-}
+    </div>
+  )
+};
+
+export default IndexPage;
 
 export const pageQuery = graphql`
-  query hehe {
-    allMarkdownRemark {
+  query IndexQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
+          id
+          excerpt(pruneLength: 100)
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
             title
-            parent
+            author
+            dsct
           }
         }
       }

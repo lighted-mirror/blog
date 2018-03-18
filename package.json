@@ -1,37 +1,38 @@
 {
   "name": "lighted-mirror.github.io",
   "description": "lighted mirror blog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Leon <jazzysnail@outlook.com>",
   "dependencies": {
-    "css-loader": "^0.28.9",
-    "gatsby": "^1.9.158",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-source-filesystem": "^1.5.18",
-    "gatsby-transformer-remark": "^1.7.30",
-    "gh-pages": "^1.1.0",
-    "less": "^2.7.3",
-    "less-loader": "^4.0.5",
-    "prettier": "^1.10.2",
-    "pretty-error": "^2.1.1",
+    "antd": "^3.3.0",
+    "css-loader": "^0.28.11",
+    "gatsby": "^1.9.236",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-antd": "^1.0.10",
+    "gatsby-plugin-less": "^1.1.7",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-remark-prismjs": "^1.2.18",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.37",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "prismjs": "^1.12.2",
     "react-helmet": "^5.2.0",
-    "resolve-cwd": "^2.0.0",
-    "stack-trace": "0.0.10",
-    "style-loader": "^0.20.1",
-    "yargs": "^11.0.0",
-    "yurnalist": "^0.2.1"
+    "style-loader": "^0.20.3"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
   }
 }
