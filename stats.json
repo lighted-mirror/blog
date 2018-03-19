@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---about-us": [
-      "path---about-us-aa1db153bb29a7883f35.js",
-      "path---about-us-aa1db153bb29a7883f35.js.map"
+      "path---about-us-7026a27927172c4fb075.js",
+      "path---about-us-7026a27927172c4fb075.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-fcdaa8f0729528e03277.js",
-      "component---src-pages-index-js-fcdaa8f0729528e03277.js.map"
+      "component---src-pages-index-js-0088ed1da8f7c926d417.js",
+      "component---src-pages-index-js-0088ed1da8f7c926d417.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,24 +17,24 @@
       "path---blocking-queue-array-blocking-queue-c43dadcdf7459cfbb264.js.map"
     ],
     "path---why-you-just-code-java-version": [
-      "path---why-you-just-code-java-version-82afc9c7ff49f9592deb.js",
-      "path---why-you-just-code-java-version-82afc9c7ff49f9592deb.js.map"
+      "path---why-you-just-code-java-version-827dec47ede9811a6ace.js",
+      "path---why-you-just-code-java-version-827dec47ede9811a6ace.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1d366d95832f968ba701.js",
-      "component---src-layouts-index-js-1d366d95832f968ba701.js.map"
+      "component---src-layouts-index-js-86d3f2eae7240b5d4820.js",
+      "component---src-layouts-index-js-86d3f2eae7240b5d4820.js.map"
     ],
     "path---format": [
-      "path---format-9a9ac795b7eecf26f8ac.js",
-      "path---format-9a9ac795b7eecf26f8ac.js.map"
+      "path---format-916f103e862fd973337b.js",
+      "path---format-916f103e862fd973337b.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-260ab8b9b541c6decc5a.js",
-      "path---index-260ab8b9b541c6decc5a.js.map"
+      "path---index-72b05fe8b01c34fee2a3.js",
+      "path---index-72b05fe8b01c34fee2a3.js.map"
     ],
     "path---surprise": [
       "path---surprise-6dce649730b5baef2b0f.js",
@@ -59,18 +59,26 @@
       "component---src-templates-post-js-9082b023306ad490b1e3.js.map"
     ],
     "path---es-reference": [
-      "path---es-reference-5b753a21fc47f68b1056.js",
-      "path---es-reference-5b753a21fc47f68b1056.js.map"
+      "path---es-reference-f2972d5a45140d0f0e69.js",
+      "path---es-reference-f2972d5a45140d0f0e69.js.map"
+    ],
+    "path---font-design-jazzysnail": [
+      "path---font-design-jazzysnail-b64a197a380d30d591ee.js",
+      "path---font-design-jazzysnail-b64a197a380d30d591ee.js.map"
     ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-f0ea1db8efb5f981a67b.js",
       "component---src-pages-page-2-js-f0ea1db8efb5f981a67b.js.map"
     ],
     "app": [
-      "app-0568e2cc8a58ccb3bb54.js",
+      "app-f8a428ade52365554afc.js",
       "build-js-styles.css",
-      "app-0568e2cc8a58ccb3bb54.js.map",
+      "app-f8a428ade52365554afc.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---vue-logo-design": [
+      "path---vue-logo-design-424710758ac0a9e86d78.js",
+      "path---vue-logo-design-424710758ac0a9e86d78.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
