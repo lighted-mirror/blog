@@ -351,6 +351,7 @@ ps 方法**lock.lockInterruptibly()？**
 - 如果队列中包含多个相同元素，那么只会删除遍历到的第一个元素。
 - 删除成功返回true，否则返回false
 - 遍历的原则是从takeIndex开始将整个内部数组遍历一遍直到遍历到索引putIndex为止。找到对应元素的位置后就可以调用removeAt来删除指定的元素。
+
 ``` java
     void removeAt(final int removeIndex) {
         // assert lock.getHoldCount() == 1;

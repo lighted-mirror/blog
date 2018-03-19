@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './index.less';
 
 const Footer = () => (
   <footer>
-    <p style={{textAlign: 'center'}}>Lighted mirror ❤ Love & Peace</p>
+    <p>Lighted mirror ❤ Love & Peace</p>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

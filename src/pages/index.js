@@ -8,7 +8,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges.filter(edge => !!edge.node.frontmatter.date);
     // .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
   return (
-    <div>
+    <div className="home-container">
       <List
         itemLayout="horizontal"
         dataSource={Posts}
@@ -25,16 +25,6 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
           )
         }}
       />
-      <div className="pagination">
-        <ButtonGroup style={{float: 'right'}}>
-          <Button type="primary">
-            <Icon type="left" />Newer Posts
-          </Button>
-          <Button type="primary">
-            Older Posts<Icon type="right" />
-          </Button>
-        </ButtonGroup>
-      </div>
     </div>
   )
 };
@@ -60,3 +50,14 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// <div className="pagination">
+//   <ButtonGroup style={{float: 'right'}}>
+//     <Button type="primary">
+//       <Icon type="left" />Newer Posts
+//     </Button>
+//     <Button type="primary">
+//       Older Posts<Icon type="right" />
+//     </Button>
+//   </ButtonGroup>
+// </div>

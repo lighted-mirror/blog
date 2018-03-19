@@ -5,10 +5,11 @@
   width: 800px;
   font-size: 14px;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding: 20px 30px 60px 30px;
+
   .blog-post {
     .post-title {
-      font-weight: 400;
+      // font-weight: 500;
     }
     .post-date {
       font-weight: 400;
@@ -16,5 +17,109 @@
       font-size: 12px;
       color: #9399a5;
     }
+    .blog-post-content{
+      .blog-post-content();
+    }
+  }
+}
+
+.blog-post-content() {
+  // font-weight: 400 !important;
+  // 大标题
+  h1 {
+    font-weight: inherit;
+    margin: 32px 0 12px 0;
+  }
+  h2 {
+    font-weight: inherit;
+    margin: 21px 0 11px 0;
+  }
+
+  > p {
+    text-indent: 2em;
+  }
+
+  // 行内代码块 & 可以当做标签使用
+  p > code {
+    background: #f1eaed;
+    padding: 3px 5px;
+    border-radius: 6px;
+    color: #da0a5a;
+  }
+  // 无序列表
+
+
+  // 有序列表
+
+  // 引用
+  blockquote {
+    margin: 0;
+    padding-left: 15px;
+    border-left: 2px solid #2E6EBD;
+    background: tint(#666, 95%);
+    border-radius: 6px;
+  }
+
+  // 链接
+  p > a {
+    color: #2e61bd;
+    &:before {
+      content: '「'
+    }
+    &:after {
+      content: '」'
+    }
+  }
+  // 无序列表
+  ul {
+    padding-left: 1rem;
+    & > li {
+      list-style: none;
+      &:before {
+        content: ' ';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border: 1px solid #da0a5a;
+        border-radius: 50%;
+        margin-right: 4px;
+      }
+      & > p {
+        display: inline;
+      }
+    }
+  }
+
+  // 有序列表
+  ol {
+    padding-left: 2rem;
+    & > p {
+      display: inline;
+    }
+  }
+
+  // 表格
+  table {
+    width: 100%;
+    margin: 6px 0;
+    td, th {
+      padding: 6px 8px;
+      border: 1px solid #e8e8e8;
+      white-space: normal;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+    th {
+      background: #f2f2f5;
+    }
+  }
+
+  // 分割线
+  hr {
+    display: block;
+    border: none;
+    margin: 12px 0;
+    height: 1px;
+    background: #e8e8e8;
   }
 }
