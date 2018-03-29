@@ -1,2 +1,2 @@
-webpackJsonp([0xdfeea4a37e96],{532:function(t,e){t.exports={data:{markdownRemark:{html:'<p><img src="http://img.zcool.cn/community/0248f357a5a9780000012e7e485802.png"></p>',frontmatter:{date:"August 06, 2016",path:"/vue-logo-design",title:"[Logo设计] Vue",author:"Leon",dsct:"无聊调戏 Vue Logo"}}},pathContext:{}}}});
+webpackJsonp([0xdfeea4a37e96],{537:function(t,e){t.exports={data:{markdownRemark:{html:'<p><img src="http://img.zcool.cn/community/0248f357a5a9780000012e7e485802.png"></p>',frontmatter:{date:"August 06, 2016",path:"/vue-logo-design",title:"[Logo设计] Vue",author:"Leon",dsct:"无聊调戏 Vue Logo"}}},pathContext:{}}}});
 //# sourceMappingURL=path---vue-logo-design-424710758ac0a9e86d78.js.map

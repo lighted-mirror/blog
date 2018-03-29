@@ -25,8 +25,8 @@
       "path---why-you-just-code-java-version-9df83e374096adb0153d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-86d3f2eae7240b5d4820.js",
-      "component---src-layouts-index-js-86d3f2eae7240b5d4820.js.map"
+      "component---src-layouts-index-js-76e7077f16d1fb68e17e.js",
+      "component---src-layouts-index-js-76e7077f16d1fb68e17e.js.map"
     ],
     "path---format": [
       "path---format-916f103e862fd973337b.js",
@@ -37,8 +37,8 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-f80ab1f1b20ff39f2d4d.js",
-      "path---index-f80ab1f1b20ff39f2d4d.js.map"
+      "path---index-45c97c06eb0af1936779.js",
+      "path---index-45c97c06eb0af1936779.js.map"
     ],
     "path---surprise": [
       "path---surprise-6dce649730b5baef2b0f.js",
@@ -75,10 +75,14 @@
       "component---src-pages-page-2-js-f0ea1db8efb5f981a67b.js.map"
     ],
     "app": [
-      "app-03ac3206d969704df862.js",
+      "app-b0ea898e99e7d637f776.js",
       "build-js-styles.css",
-      "app-03ac3206d969704df862.js.map",
+      "app-b0ea898e99e7d637f776.js.map",
       "build-js-styles.css.map"
+    ],
+    "component---src-pages-seting-js": [
+      "component---src-pages-seting-js-e3876e407b7f0609f25c.js",
+      "component---src-pages-seting-js-e3876e407b7f0609f25c.js.map"
     ],
     "path---vue-logo-design": [
       "path---vue-logo-design-424710758ac0a9e86d78.js",
@@ -87,6 +91,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---seting": [
+      "path---seting-a0e39f21c11f6a62c5ab.js",
+      "path---seting-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
