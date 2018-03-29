@@ -1,0 +1,2 @@
+webpackJsonp([0x8b58f510e8cb],{554:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"《意外》",path:"/surprise"}}}]}},pathContext:{tag:"小黄文"}}}});
+//# sourceMappingURL=path---tags-小黄文-c7b526289b87a4ee10ef.js.map

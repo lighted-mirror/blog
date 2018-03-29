@@ -1,0 +1,2 @@
+webpackJsonp([65951750749414],{551:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"[字体设计] jazzysnail",path:"/font-design-jazzysnail"}}}]}},pathContext:{tag:"design"}}}});
+//# sourceMappingURL=path---tags-design-fbe65518581e65d4174e.js.map

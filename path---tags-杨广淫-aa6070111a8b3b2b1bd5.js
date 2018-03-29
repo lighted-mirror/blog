@@ -1,0 +1,2 @@
+webpackJsonp([9533621032766],{556:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"《意外》",path:"/surprise"}}}]}},pathContext:{tag:"杨广淫"}}}});
+//# sourceMappingURL=path---tags-杨广淫-aa6070111a8b3b2b1bd5.js.map
