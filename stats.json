@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---about-us": [
-      "path---about-us-e205223086e4213469bc.js",
-      "path---about-us-e205223086e4213469bc.js.map"
+      "path---about-us-bd1ea4314fa757dc9e14.js",
+      "path---about-us-bd1ea4314fa757dc9e14.js.map"
     ],
     "path---tags-源码解析": [
       "path---tags-源码解析-a5197afa2ab8280a15d9.js",
@@ -20,6 +20,10 @@
       "path---tags-文学-9dd37cf9159f3b5f5519.js",
       "path---tags-文学-9dd37cf9159f3b5f5519.js.map"
     ],
+    "path---instructions-of-post": [
+      "path---instructions-of-post-59f1946ffa1fe5b46f4b.js",
+      "path---instructions-of-post-59f1946ffa1fe5b46f4b.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-60df3ec47ea0ac2fa3a9.js",
       "component---src-pages-index-js-60df3ec47ea0ac2fa3a9.js.map"
@@ -29,16 +33,20 @@
       "path---tags-melody-from-6e216a216a4fd8035695.js.map"
     ],
     "path---tags": [
-      "path---tags-1c70a3583741f3e5e4a7.js",
-      "path---tags-1c70a3583741f3e5e4a7.js.map"
+      "path---tags-505a426d04a48b23a1fd.js",
+      "path---tags-505a426d04a48b23a1fd.js.map"
+    ],
+    "path---tags-官方": [
+      "path---tags-官方-fe26d970270bc1b17fe8.js",
+      "path---tags-官方-fe26d970270bc1b17fe8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-leon": [
-      "path---tags-leon-a7f832461302a9c6a3c9.js",
-      "path---tags-leon-a7f832461302a9c6a3c9.js.map"
+      "path---tags-leon-770f08b2ede7e6da17a4.js",
+      "path---tags-leon-770f08b2ede7e6da17a4.js.map"
     ],
     "path---tags-设计": [
       "path---tags-设计-6aed292368fe733feca5.js",
@@ -57,20 +65,16 @@
       "path---why-you-just-code-java-version-aea81bb62c067be86a2b.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b13361e87ffbe9ac0a99.js",
-      "component---src-layouts-index-js-b13361e87ffbe9ac0a99.js.map"
+      "component---src-layouts-index-js-a985051335778543a53b.js",
+      "component---src-layouts-index-js-a985051335778543a53b.js.map"
     ],
     "path---tags-vue": [
       "path---tags-vue-7ca5a9a60e63dd783f2d.js",
       "path---tags-vue-7ca5a9a60e63dd783f2d.js.map"
     ],
-    "path---format": [
-      "path---format-52055c10f613e6dbe5fb.js",
-      "path---format-52055c10f613e6dbe5fb.js.map"
-    ],
     "path---index": [
-      "path---index-43f6c4dc4128c5e92fb6.js",
-      "path---index-43f6c4dc4128c5e92fb6.js.map"
+      "path---index-dafa1cc2382c9cd7dd78.js",
+      "path---index-dafa1cc2382c9cd7dd78.js.map"
     ],
     "path---surprise": [
       "path---surprise-dc2c6c128de42d23b504.js",
@@ -131,10 +135,14 @@
       "path---tags-ygy-4870-3467b2fd0e742d7fd095.js.map"
     ],
     "app": [
-      "app-15fbe546ca53aa712caf.js",
+      "app-dcec3db1f01dc6c4e6aa.js",
       "build-js-styles.css",
-      "app-15fbe546ca53aa712caf.js.map",
+      "app-dcec3db1f01dc6c4e6aa.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---dev": [
+      "path---dev-59874185e7d290c8d733.js",
+      "path---dev-59874185e7d290c8d733.js.map"
     ],
     "component---src-pages-seting-js": [
       "component---src-pages-seting-js-e3876e407b7f0609f25c.js",
