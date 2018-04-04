@@ -8,17 +8,19 @@ module.exports = {
       options: {
         path: `${__dirname}/posts`,
         name: 'markdown-pages',
-
       },
     },
     {
       resolve: 'gatsby-plugin-less',
       options: {
-        theme: `${__dirname}/src/theme.js`,
+        theme: `${__dirname}/src/theme`,
       },
     },
     {
-      resolve: 'gatsby-plugin-antd'
+      resolve: 'gatsby-plugin-antd',
+      // options: {
+      //   style: true
+      // }
     },
     {
       resolve: 'gatsby-transformer-remark',

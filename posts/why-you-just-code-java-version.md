@@ -3,12 +3,13 @@ path: "/why-you-just-code-java-version"
 date: "2018-03-19"
 title: "为什么说你只是敲了一遍“java -version”？"
 author: "ygy4870"
+tags: ["Java"]
 ---
 
 好吧！是我只敲了一遍。
 当我下载需要的jdk并安装、配置java_home、classpath、添加path路径后，通常会打开cmd命令行（windows环境），输入“java -version”，回车，出现如下所示：
 
-```json
+``` base
 java version "1.7.0_79"
 Java(TM) SE Runtime Environment (build 1.7.0_79-b15)
 Java HotSpot(TM) 64-Bit Server VM (build 24.79-b02, mixed mode)
@@ -28,21 +29,15 @@ JDK1.7版本，这个我们通常关注的是版本语法的区别，高版本�
 # Java HotSpot(TM) 64-Bit Server VM (build 24.79-b02, mixed mode)
 第三行的信息量有点大。
 
-```json
-“HotSpot(TM)”
-```
+## HotSpot(TM)
 
 在这里是具体的一个JVM实现。我们知道JVM只是一个规范，在遵循规范的前提下，各个厂商实现了自己的JVM,有些是开源的，其中HotSpot，是Sun JDK和OpenJDK中所带的虚拟机，也是目前使用范围最广的Java虚拟机。每个具体的JVM都有不同的特点，这里不细说（因为不知道）。所以当我们讨论诸如gc时，我们的立足点应该是具体实现的JVM,才更有意义。
 
-```json
-“64-Bit”
-```
+## 64-Bit
 
 JVM全称JAVA虚拟机，虽然是一个软件，一个程序，但是是一个模拟物理机的软件，所以也有32bit和64bit的区别。比如32bit，大体指的是CPU内部寄存器和寻址总线是32位，指令集可以运行32位数据指令，也就是说一次可以提取32位数据，最大寻址空间为2的32次方也就是4G。所以当你的JVM是为32bit时，无论你的物理机有多大的内存，你的JVM启动参数配置分配多大的内存，理论上JVM能使用到的不可能超过4G,由于实际很多原因，远远达不到4G。64bit同理。那是不是说64bit的JVM就一定比32bit的要好呢，这倒未必，这里不讨论（因为不知道）。
 
-```json
-“Server ”
-```
+## Server
 
 好吧，JVM竟有Client和Server之别，这里的Client表示是针对桌面程序的JVM，特点是启动较快，而Server便是针对服务器也就是我们最常接触的web应用，较之Client启动很慢，但运行性能比Client好得多。我们知道，让Java这门语言扬名立万的领域正是web领域，我们都快忘了Java本身也是可以写桌面应用的了。事实上用Java写桌面应用并不差，如eclipse就是个很好的例子。不过Java官方感觉已经放弃桌面应用领域了，事实上64bit的JVM 目前只支持Server类型的。以client还是server方式启动运行JVM是可配置的（前提是32bit JVM）。配置可参考：[这里](http://blog.csdn.net/sunxiakun/article/details/45242653)
 

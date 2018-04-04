@@ -1,0 +1,46 @@
+html {
+  background-color: @primary-color;
+  body {
+    background-color: @primary-color;
+    .@{theme-name}-body {
+      background-color: @primary-color;
+      header {
+        h1 {
+          a {
+            color: @inner-white;
+          }
+        }
+      }
+
+      .navigation-bar {
+        .tools {
+          span {
+            a {
+              color: @primary-color;
+              background: @background-gray;
+            }
+          }
+        }
+      }
+
+      .navigation-btn {
+        .bar  {
+          border-color: @primary-color;
+          background: @inner-white;
+        }
+      }
+
+      .main-container {
+        .bar {
+          border-color: @primary-color;
+        }
+
+        .tags {
+          .tag {
+            color: @primary-color;
+          }
+        }
+      }
+    }
+  }
+}

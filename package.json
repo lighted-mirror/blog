@@ -33,6 +33,10 @@
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "prettier": "^1.11.1"
+    "lodash": "^4.17.5",
+    "prettier": "^1.11.1",
+    "rc-queue-anim": "^1.4.1",
+    "rc-scroll-anim": "^2.3.3",
+    "rc-tween-one": "^1.7.3"
   }
 }

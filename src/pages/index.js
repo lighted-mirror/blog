@@ -1,21 +1,26 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { List, Button, Icon } from 'antd';
+import { List } from 'antd';
+import TweenOne from 'rc-tween-one';
 import './index.less';
-const ButtonGroup = Button.Group;
 
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges.filter(edge => !!edge.node.frontmatter.date);
     // .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
   return (
-    <div className="home-container">
+    <TweenOne
+      key="main"
+      animation={{opacity: 1}}
+      style={{ opacity: 0, position: 'relative' }}
+      className="home-container"
+      >
       <List
         itemLayout="horizontal"
         dataSource={Posts}
         renderItem={item => {
           const { path, title, dsct, author } = item.node.frontmatter;
           return (
-            <List.Item>
+            <List.Item key={path}>
               <List.Item.Meta
                 title={<Link to={path}>{title}</Link>}
                 description={dsct || item.node.excerpt}
@@ -25,7 +30,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
           )
         }}
       />
-    </div>
+    </TweenOne>
   )
 };
 
@@ -37,7 +42,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 100)
+          excerpt(pruneLength: 50)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path

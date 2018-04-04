@@ -1,0 +1,66 @@
+.page-tags {
+  min-height: 44px;
+  padding: 10px;
+  ul {
+    margin: 0;
+    padding: 0;
+    .tag-box-author {
+      .tag-box;
+      a {
+        color: inherit;
+        span.author {
+          .default(#40a9ff);
+        }
+      }
+    }
+
+    .tag-box {
+      display: inline-block;
+      margin: 10px 0;
+      a {
+        color: inherit;
+        span.default{
+          .default(#da0a5a);
+        }
+      }
+    }
+  }
+}
+
+.default(@pc) {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  &.tag-name {
+    background: @pc;
+    color: #fff;
+    padding: 0 8px;
+    border-radius: 6px 0 0 6px;
+    box-shadow: 0px 0px 4px 0px @pc;
+    position: relative;
+    &:after {
+      content: ' ';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #efefef;
+      border-radius: 50%;
+      position: absolute;
+      top: 7px;
+      right: -5px;
+    }
+  }
+  &.post-num {
+    background: rgba(37, 22, 28, 0.07);
+    color: @pc;
+    padding: 0 8px 0 6px;
+    margin-right: 10px;
+    border-radius: 0 6px 6px 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    &:hover {
+      padding-left: 10px;
+      margin-right: 6px;
+    }
+  }
+}

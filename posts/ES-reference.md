@@ -1,8 +1,9 @@
 ---
 path: "/es-reference"
 date: "2018-03-18"
-title: "使用 js 实现引用传递"
-author: "leon"
+title: "值传递与引用传递"
+author: "Leon"
+tags: ["JavaScript"]
 dsct: "本文将帮助你理解在 js 中为何参数传递是值传递的，并将会带你一起用 js 来实现一个引用传递变量的声明。"
 ---
 

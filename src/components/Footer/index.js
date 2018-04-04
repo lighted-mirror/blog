@@ -1,9 +1,11 @@
 import React from 'react';
 import './index.less';
+import { Icon } from 'antd';
+
 
 const Footer = () => (
   <footer>
-    <p>Lighted mirror ❤ Love & Peace</p>
+    <p>Lighted mirror <Icon type="heart" /> You</p>
   </footer>
 );
 
