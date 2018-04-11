@@ -1,2 +1,0 @@
-webpackJsonp([0xc793e5cdde14],{555:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"栈在程序中的常用方式",path:"/usage-of-stack-in-program"}}}]}},pathContext:{tag:"数据结构"}}}});
-//# sourceMappingURL=path---tags-数据结构-a3ce80d51d7ab530511b.js.map

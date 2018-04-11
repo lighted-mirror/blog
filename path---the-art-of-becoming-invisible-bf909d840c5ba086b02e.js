@@ -1,0 +1,2 @@
+webpackJsonp([0x72a4f21e30a7],{574:function(t,a){t.exports={data:{markdownRemark:{html:"<h1>递归调用</h1>\n<p>使用 <code>arguments.callee</code> 来代替函数名调用。当递归算法函数拥有多个函数名时都能够正常运行。</p>",frontmatter:{date:"April 04, 2018",path:"/the-art-of-becoming-invisible",title:"令人窒息的操作",author:"Leon",dsct:"记录一些可能很有用的技巧（持续更新）",tags:["骚操作","JavaScript"]}}},pathContext:{}}}});
+//# sourceMappingURL=path---the-art-of-becoming-invisible-bf909d840c5ba086b02e.js.map

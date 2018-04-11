@@ -1,2 +1,0 @@
-webpackJsonp([0xdfeea4a37e96],{544:function(t,e){t.exports={data:{markdownRemark:{html:'<p><img src="http://img.zcool.cn/community/0248f357a5a9780000012e7e485802.png"></p>',frontmatter:{date:"August 06, 2016",path:"/vue-logo-design",title:"Vue",author:"Leon",dsct:"无聊调戏 Vue Logo",tags:["Vue","设计","Leon"]}}},pathContext:{}}}});
-//# sourceMappingURL=path---vue-logo-design-9445ddc6378ec475e240.js.map

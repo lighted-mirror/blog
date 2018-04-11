@@ -1,0 +1,2 @@
+webpackJsonp([0xd9f34ba10d58],{550:function(l,i){l.exports={data:{markdownRemark:{html:"<h1>todo-list</h1>\n<ul>\n<li>[ Y ] Markdown 语法</li>\n<li>[ Y ] 文章标签</li>\n<li>[ Y ] 作者标签</li>\n<li>[ - ] 主题/专栏标签</li>\n<li>[ - ] 作品展示</li>\n<li>[ - ] 评论</li>\n<li>[ - ] 换肤</li>\n<li>[ - ] 订阅</li>\n</ul>",frontmatter:{date:"April 03, 2018",path:"/dev",title:"开发说明",author:"Leon",dsct:"关注我们的开发进度",tags:["官方"]}}},pathContext:{}}}});
+//# sourceMappingURL=path---dev-3f3c0d66e941a9bfd502.js.map

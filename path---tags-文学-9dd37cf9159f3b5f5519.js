@@ -1,2 +1,0 @@
-webpackJsonp([18248101463930],{557:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/jazzysnail/Blog/ligthed-mirror/blog/posts/surprise.md absPath of file >>> MarkdownRemark",excerpt:"…",frontmatter:{date:"March 18, 2018",path:"/surprise",title:"《意外》",author:"ygy4870",dsct:"究竟是人性的扭曲还是道德的沦丧？"}}}]},authorsPosts:null},pathContext:{tag:"文学"}}}});
-//# sourceMappingURL=path---tags-文学-9dd37cf9159f3b5f5519.js.map

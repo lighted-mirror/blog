@@ -1,2 +1,0 @@
-webpackJsonp([9533621032766],{540:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/jazzysnail/Blog/ligthed-mirror/blog/posts/surprise.md absPath of file >>> MarkdownRemark",excerpt:"…",frontmatter:{date:"March 18, 2018",path:"/surprise",title:"《意外》",author:"ygy4870",dsct:"究竟是人性的扭曲还是道德的沦丧？"}}}]}},pathContext:{tag:"杨广淫"}}}});
-//# sourceMappingURL=path---tags-杨广淫-a91d5153ab1204414552.js.map

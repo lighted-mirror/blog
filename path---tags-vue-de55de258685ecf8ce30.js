@@ -1,2 +1,0 @@
-webpackJsonp([0x6f6e17de0fd6],{536:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/jazzysnail/Blog/ligthed-mirror/blog/posts/vue-logo-design.md absPath of file >>> MarkdownRemark",excerpt:"",frontmatter:{date:"August 06, 2016",path:"/vue-logo-design",title:"Vue",author:"Leon",dsct:"无聊调戏 Vue Logo"}}}]}},pathContext:{tag:"Vue"}}}});
-//# sourceMappingURL=path---tags-vue-de55de258685ecf8ce30.js.map
