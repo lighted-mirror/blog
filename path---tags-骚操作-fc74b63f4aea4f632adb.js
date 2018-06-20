@@ -1,0 +1,2 @@
+webpackJsonp([23126854028706],{585:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/jazzysnail/Blog/ligthed-mirror/blog/posts/the-art-of-becoming-invisible.md absPath of file >>> MarkdownRemark",excerpt:"递归调用 使用   来代替函数名调用。当递归算法函数拥有多个函数名时都能够正常运行。",frontmatter:{date:"April 04, 2018",path:"/the-art-of-becoming-invisible",title:"令人窒息的操作",author:"Leon",dsct:"记录一些可能很有用的技巧（持续更新）"}}}]},authorsPosts:null},pathContext:{tag:"骚操作"}}}});
+//# sourceMappingURL=path---tags-骚操作-fc74b63f4aea4f632adb.js.map
